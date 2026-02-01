@@ -22,14 +22,14 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Gosto mo ba ako?",                                    // First interaction
+            yesBtn: "Uu",                                             // Text for "Yes" button
+            noBtn: "Inde",                                               // Text for "No" button
+            secretAnswer: "Di kita gosto, kasi mahal kita! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
+            text: "Gaano mo ko kamahal?",                          // For the love meter
+            startText: "Ganito!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW Super mahal na mahal mo pala ako :0 🥰🚀💝",  // Shows when they go past 5000%
+        high: "OMG ganun mo ko kamahal?? 🚀💝",              // Shows when they go past 1000%
+        normal: "Ang galengg yaaaay! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yipee! We get to be Valentines again this year! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        message: "At dahil diyan, you get hugs n kisses!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
