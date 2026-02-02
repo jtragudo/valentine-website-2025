@@ -9,13 +9,13 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Poide ba kita maging Valentine? 👉👈",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
         hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        bears: ['🐈', '🐱']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -24,7 +24,7 @@ const CONFIG = {
         first: {
             text: "Gosto mo ba ako?",                                    // First interaction
             yesBtn: "Uu",                                             // Text for "Yes" button
-            noBtn: "Inde",                                               // Text for "No" button
+            noBtn: "Deinz hehe",                                               // Text for "No" button
             secretAnswer: "Di kita gosto, kasi mahal kita! ❤️"           // Secret hover message
         },
         second: {
